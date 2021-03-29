@@ -1,0 +1,114 @@
+body {
+    background-color: black;
+    color: cornsilk;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.0em;
+}
+
+h1 {
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    font-size: 16px;
+    color: cornsilk;
+    margin-top: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: cornsilk;
+    padding: 0px 0px;
+}
+
+a:hover {
+    color: olive;
+}
+
+.container {
+    width: 40%;
+    margin: auto;
+}
+
+.box-1 {
+    background-color: black;
+    color: cornsilk;
+    border-right: 2px cornsilk solid;
+    border-left: 2px cornsilk solid;
+    border-top: 2px cornsilk solid;
+    border-bottom: 2px cornsilk solid;
+    /* zelfde als bovenstaande*/
+    border: 2px cornsilk solid;
+    text-align: left;
+    padding: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 4px;
+}
+
+.plaatje img {
+    height: 250px;
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.oprit img {
+    height: 250px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.box_2 {
+    width: 35%;
+    border: 2px dotted;
+    padding-left: 20px;
+    padding-right: 36px;
+    text-align: center;
+}
+
+@media (min-width:1024px) {
+    body {
+
+        font: normal 16px Arial, Helvetica, sans-serif;
+        line-height: 1.4em;
+    }
+
+    h1 {
+        font-family: Copperplate, Copperplate Gothic Light, fantasy;
+        font-size: 44px;
+        color: cornsilk;
+        margin-top: 40px;
+        text-align: center;
+        line-height: 1em;
+    }
+
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+
+    .box_2 {
+        width: 30%;
+        border: 2px dotted;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    .plaatje img {
+        height: 450px;
+        margin-top: 40px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    a {
+        text-decoration: none;
+        color: cornsilk;
+        padding: 0px 100px;
+    }
+}

@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    color: cornsilk;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+h1 {
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    font-size: 44px;
+    color: cornsilk;
+    margin-top: 40px;
+    text-align: center;
+    line-height: 1em;
+}
+
+header,
+main,
+
+nav {
+    border: 1px solid lightseagreen;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+nav {
+    background-color: lightseagreen;
+    color: white;
+    font-size: 18px;
+}
+
+.navigation-links li {
+    display: inline;
+    margin: 10px;
+}
+
+input,
+select,
+textarea {
+    line-height: 25px;
+    font-size: 16px;
+    font-family: monospace;
+    border-radius: 5px;
+    border: 1px solid grey;
+}

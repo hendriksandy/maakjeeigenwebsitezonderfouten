@@ -1,0 +1,133 @@
+body {
+    background-color: black;
+}
+
+.blok {
+    width: 100%;
+    background-color: black;
+    height: 30px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-top;
+}
+
+h1 {
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    font-size: 24px;
+    color: cornsilk;
+    margin-top: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 0em;
+}
+
+.item {
+    background-color: darkgrey;
+    border: cornsilk 3px;
+    width: 200px;
+    color: cornsilk;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.blok2 {
+    width: 100%;
+    background-color: black;
+    height: 550px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tekst {
+    background-color: black;
+    border: cornsilk 3px;
+    width: 80%;
+    color: cornsilk;
+    text-align: center;
+}
+
+.tekst p {
+    font-size: 14px;
+}
+
+.tekst h2 {
+    font-size: 24px;
+}
+
+.item a {
+    text-decoration: none;
+    color: cornsilk;
+}
+
+a:hover {
+    color: olive;
+}
+
+@media (min-width:1024px) {
+    .blok {
+        width: 100%;
+        background-color: black;
+        height: 30px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-top;
+    }
+
+    h1 {
+        font-family: Copperplate, Copperplate Gothic Light, fantasy;
+        font-size: 44px;
+        color: cornsilk;
+        margin-top: 40px;
+        text-align: center;
+        line-height: 1em;
+    }
+
+    .item {
+        background-color: darkgrey;
+        border: cornsilk 3px;
+        width: 200px;
+        color: cornsilk;
+        text-align: center;
+        padding-top: 6px;
+    }
+
+    .blok2 {
+        width: 100%;
+        background-color: black;
+        height: 550px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .tekst {
+        background-color: black;
+        border: cornsilk 3px;
+        width: 80%;
+        color: cornsilk;
+        text-align: center;
+    }
+
+    .tekst p {
+        font-size: 28px;
+    }
+
+    .tekst h2 {
+        font-size: 34px;
+    }
+
+    .item a {
+        text-decoration: none;
+        color: cornsilk;
+    }
+
+    a:hover {
+        color: olive;
+    }
+
+}
